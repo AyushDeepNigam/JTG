@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Homepage</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-    </head>
-    <body>
-        <div class="header">
-            <img class="headerBG" src="src/img/header_bg01.png">
-                <div class="header-logo"><a href="index.html"> 
-                    <img class="header-logo" src="src/img/logo.png" alt="logo.png"></a>
-                </div>
-            <div class="navH">
-                <ul class="ulNav">
-                    <li class="liNav"><a class="liaNav" href="index.html">PRODUCTS</a></li>
-                    <li class="liNav"><a class="liaNav" href="index.html">CUSTOMERS</a></li>
-                    <li class="liNav"><a class="liaNav" href="index.html">NEWS + EVENTS</a></li>
-                    <li class="liNav"><a class="liaNav" href="index.html">ABOUT US</a></li>
-                </ul>
-            </div>
-            <div class="imaage">
-                <img class="imaage" src="src/img/banner_slider_01.jpg">
-            </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+</head>
+
+<body>
+    <div class="header"><img class="headerBG" src="src/img/header_bg01.png"></div>
+    <div class="header-logo"><a href="index.html"></a>
+        <img class="header-logo" src="src/img/logo.png" alt="logo.png"></a>
+    </div>
+    <div class="navH">
+        <ul class="ulNav">
+            <li class="liNav"><a class="liaNav" href="index.html">PRODUCTS</a></li>
+            <li class="liNav"><a class="liaNav" href="index.html">CUSTOMERS</a></li>
+            <li class="liNav"><a class="liaNav" href="index.html">NEWS + EVENTS</a></li>
+            <li class="liNav"><a class="liaNav" href="index.html">ABOUT US</a></li>
+        </ul>
+    </div>
+    
+    <div class="slide-wrapper">
+        <div>
+            <div class="slide-item"><img class="banner" src="src/img/banner_slider_01.jpg"></div>
+            <div class="bannerTextBox"><p class="bannerText">META CONSECTETUS</p>Nulla Pariatur. Nulla Pariatur.<br>Nulla Voluptatem Pariatur.</div>
         </div>
-    </body>
+        <div>
+            <div class="slide-item"><img class="banner" src="src/img/banner_slider_02.jpg"> 2</div>
+        </div>
+        <div>
+            <div class="slide-item"><img class="banner3" src="src/img/e1IneGq.gif"> 3 </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+        var slider = tns({
+            container: '.slide-wrapper',
+            items: 1,
+            slideBy: 'page',
+            autoplay: false,
+            controls: true,
+            nav: true,
+            mouseDrag: true,
+        });
+    </script>
+</body>
+
 </html>
