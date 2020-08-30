@@ -6,7 +6,7 @@ body{
     position: relative;
     z-index: 0;
     width: 100%;
-    height: 100px;
+    height: 107px;
     background-color: rgb(230, 230, 230);
     -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -15,18 +15,19 @@ body{
 .header-img{
     position: absolute;
     width: 793px;
-    height: 100px;
+    height: 108px;
     background: url(../src/img/header_bg01.png);
     background-size: cover;
     margin: 0%;
+    /* border: solid; */
 }
 .header-logo{
     position: absolute;
     z-index: 1;
     width: 259px;
-    height: 63px;
-    padding-top: 20px;
-    margin-left: 21%;
+    height: auto;
+    padding-top: 13px;
+    margin-left: 85px;
 }
 .navH{
     position: absolute;
