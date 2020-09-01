@@ -8,7 +8,7 @@ body {
 }
 .header {
     width: 100%;
-    height: 100px;
+    max-height: 100px;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0 8px 5px rgba(57, 63, 72, 0.15);
     -moz-box-shadow: 0 8px 5px rgba(57, 63, 72, 0.15);
@@ -23,6 +23,14 @@ body {
     max-width: 100%;
     margin-left: 10%;
     margin-right: 65%
+}
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url('../src/img/footer_bg.jpg');
 }
 .navH {
     margin-left: 31%;
@@ -47,7 +55,7 @@ body {
     z-index: -1;
     margin-top: 5px;
     margin-left: 11.8%;
-    margin-right: 40%;
+    margin-right: 38.2%;
 }
 .tns-controls {
     display: none;
@@ -73,19 +81,121 @@ body {
 }
 
 .banner {
-    width: 1024px;
-    height: auto;
-    border-width: 2px;
+    width: 76.1%;
+    height: inherit;
+    border: solid;
+    border-width: 1px;
     border-color: rgba(221, 221, 221, 1);
 }
 .bannerTextBox {
     position: relative;
-    margin-top: -24.5%;
-    margin-left: 52.5%;
+    margin-top: -25%;
+    margin-left: 52.75%;
     font-size: 20px;
     color: #6e6e6e;
 }
 .bannerText {
     font-size: 30px;
     color: rgb(0, 133, 63);
+}
+.bannerSmallText {
+    margin-top: -1.8%;
+}
+.lifestyle_Box {
+    font-size: 22px;
+    color: rgb(0, 133, 63);
+    background-image: url('../src/img/lifestyle_box_bg.jpg');
+    background-size: 100% 100%;
+    width: 71%;
+    margin-top: 1.2%;
+    margin-left: 11.9%;
+    padding: 1.8% 2.5% 0.7%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(221, 221, 221, 1);
+}
+.lifestyle-container {
+    width: 100%;
+    margin-top: 0.4%;
+    padding-top: 2.1%;
+    display: grid;
+    border-top: solid 1px rgb(0, 133, 63);
+    grid-template-columns: 30% 35% 35%;
+    column-gap: 10px;
+}
+.lifestyle-lorem-box {
+    color: rgb(155, 155, 155);
+    font-size: 17px;
+    border-left: solid;
+    border-width: 1px;
+    border-color: rgba(221, 221, 221, 1);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1px;
+}
+.lifestyle-col {
+    font-weight: 500;
+    color: rgb(155, 155, 155);
+    font-size: 17px;
+    padding-left: 2px;
+}
+.lifestyle-col-2 {
+    margin-top: 20px;
+    padding-top: 1.5px;
+    padding-left: 8%;
+    border-left: solid;
+    border-width: 1px;
+    border-color: rgba(221, 221, 221, 1);
+}
+.lifestyle-grey-text {
+    font-weight: normal;
+    color: #6e6e6e;
+    font-size: 14px;
+}
+.lifestyle-green-text {
+    font-weight: normal;
+    margin-top: -1%;
+    color: rgb(0, 133, 63);
+
+}
+.lifestyle-dummy-text {
+    color: #6e6e6e;
+    font-size: 14px;
+    padding-top: 0;
+    word-wrap: normal;
+}
+
+.resources {
+    margin-left: 11.8%;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 65%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(221, 221, 221, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16%;
+    background-color: khaki;
+}
+.resorces_box {
+    width: 50px;
+}
+.green_Text {
+    font-size: 22px;
+    color: rgb(0, 133, 63);
+}
+.gridResources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-width: 10px;
+    background-color: lightcyan;
+    border: solid;
+    display: flexbox;
+
+}
+.rule {
+    border-top: 1px solid rgb(0, 133, 63);
+    margin-top: -16px;
 }
