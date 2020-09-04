@@ -191,7 +191,7 @@ button {
     background-size: 100% 100%;
     max-width: 100%;
     margin-top: 1%;
-    padding: 2.1% 3% 0.01% 3%;
+    padding: 2.1% 3% 0.01%;
     border: solid;
     border-width: 1px;
     border-color: #ddd
@@ -214,33 +214,33 @@ button {
     padding-top: 1%;
 }
 
-.learnMoreButton.a{
+.learnMoreButton.a {
     margin-top: 24%;
     margin-bottom: 5%;
 }
 
-.lifestyle-vr{
+.lifestyle-vr {
     border-left: 1px;
     border-left: solid 1px #ddd;
 }
 
-.lifestyle-vr.a{
+.lifestyle-vr.a {
     height: 90%;
     margin-top: 7px;
 }
 
-.lifestyle-vr.b{
+.lifestyle-vr.b {
     height: 93%;
     margin-top: -4px;
     margin-right: -10px;
 }
 
-.lifestyle-vr.c{
+.lifestyle-vr.c {
     height: 100%;
     margin-top: -30px;
 }
 
-.lifestyle-vr.d{
+.lifestyle-vr.d {
     height: 90%;
     margin-top: -4px;
 }
@@ -258,22 +258,22 @@ button {
     grid-template-columns: 50% 50%;
 }
 
-.lifestyle-lorem-title{
+.lifestyle-lorem-title {
     padding-left: 4%;
 }
 
-.lifestyle-green-text{
+.lifestyle-green-text {
     font-size: 16px;
     color: #00853f;
-    margin-top: 0%;
+    margin-top: 0;
 }
 
-.lifestyle-col{
+.lifestyle-col {
     display: grid;
     grid-template-columns: 25% 1fr 25% 1fr 25% 1fr 25%;
 }
 
-.lifestyle-col-data{
+.lifestyle-col-data {
     width: 80%;
     margin-top: -5px;
     padding-left: 8%;
@@ -283,18 +283,18 @@ button {
     font-size: 14px;
 }
 
-.lifestyle-img{
+.lifestyle-img {
     width: 110%;
     margin-left: -10px;
     margin-top: -10px;
     margin-right: auto;
 }
 
-.no-border-box{
+.no-border-box {
     margin-top: 3.2%;
 }
 
-.no-border-split{
+.no-border-split {
     display: grid;
     grid-template-columns: 60% 30%;
     column-gap: 7.5%;
@@ -302,7 +302,7 @@ button {
     color: #00853f;
 }
 
-.customer-dummy-text{
+.customer-dummy-text {
     margin-top: 3px;
     padding-top: 4%;
     border-top: solid 1px #00853f;
@@ -311,19 +311,19 @@ button {
     font-size: 14px;
 }
 
-.doloremque-grid{
+.doloremque-grid {
     display: grid;
     margin-top: 3%;
     margin-left: -2%;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    column-gap: 0px;
+    column-gap: 0;
 }
 
-.dolor-img{
+.dolor-img {
     width: 110%;
 }
 
-.news-first-pane{
+.news-first-pane {
     margin-top: 0.25vw;
     width: 24.5vw;
     border-top: solid 1px #00853f;
@@ -331,7 +331,7 @@ button {
     font-size: 1vw;
     font-weight: 500;
 }
-.news-second-pane{
+.news-second-pane {
     margin-top: 2.7vw;
     border-top: solid 1px #ddd;
     width: 24.5vw;
@@ -339,56 +339,96 @@ button {
     font-size: 1vw;
     font-weight: 500;
 }
-h6{
+h6 {
     margin-top: 0.3vw;
     color: #6e6e6e;
-    font-size: 14px;  
+    font-size: 14px;
 }
-.news-dummy-text{
+.news-dummy-text {
     word-break: break-all;
     color: #6e6e6e;
     font-size: 14px;
     font-weight: normal;
     margin-top: -1.6vw;
+}.media{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .resources {
-    margin-top: 3.3vw;
+    margin-top: 3.1vw;
     padding-left: 5%;
     padding-right: 5%;
     border: solid;
     border-width: 1px;
     border-color: #ddd;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16%;
+    grid-template-columns: 42.8% 42.8%;
+    column-gap: 14.3%;
 }
 
-.resorces-box {
-    width: 50px;
-    border-top: solid 1px #00853f;
-}
 
-.green-text{
+.green-text {
     font-size: 1.5vw;
     color: #00853f;
 }
 
 .gridResources {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-width: 10px;
-    background-color: #e0ffff;
+    grid-template-columns: 50% 50%;
     border-top: solid 1px #00853f;
-    display: flexbox
+    margin-top: -1.1vw;
+    padding-top: 5%;
 }
 
+.gridResources img {
+    transition: 1s;
+    margin-left: -4.8%;
+    margin-top: 3%;
+    width: 100%;
+}
 
+.gridResources img:hover{
+    filter: brightness(150%);
+    transform: scale(1.01);
+}
 .footer {
-    position: static;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    background-image: url('../src/img/footer_bg.jpg');
+
+}
+.footer-links{
+    margin-top: 1%;
+    width: 100%;
     height: 100px;
-    background-image: url('../src/img/footer_bg.jpg')
+}
+
+.footer-list {
+    margin: 1.7% 1% auto 17.5%;
+    white-space: nowrap;
+}
+
+.footer-list-item {
+    font-size: 1vw;
+    font-weight: 500;
+    list-style: none;
+    display: inline-block;
+    margin-right: 3.5%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: rgb(221, 219, 219);
+}
+
+.copyright{
+    margin-top: 3.4%;
+    margin-left: 42%;
+    font-size: 0.9vw;
+    color: rgb(221, 219, 219);
 }
