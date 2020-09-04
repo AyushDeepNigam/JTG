@@ -394,9 +394,10 @@ h6 {
     transform: scale(1.01);
 }
 .footer {
+    margin-top: 2.5%;
     display: grid;
     grid-template-columns: 50% 50%;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
