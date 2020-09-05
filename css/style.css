@@ -133,7 +133,7 @@ button {
     background-size: 100%;
     border-radius: 50%;
     background-color: rgba(1, 1, 1, 0);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .tns-nav {
@@ -149,7 +149,7 @@ button {
 }
 
 h1 {
-    font-size: 21px;
+    font-size: 1.6vw;
     color: #00853f;
     text-transform: uppercase;
 }
@@ -160,7 +160,7 @@ h3 {
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 1.2vw;
     color: #00853f;
     text-transform: uppercase;
 }
@@ -179,7 +179,7 @@ h6 {
     background-image: url('../img/lifestyle_box_bg.jpg');
     background-size: 100% 100%;
     max-width: 100%;
-    margin-top: 0.8%;
+    margin-top: 1%;
     padding: 2.8% 3% 0.01%;
     border: solid 1px #ddd;
 }
@@ -203,8 +203,7 @@ h6 {
 }
 
 .learn-more-button.a {
-    margin-top: 27%;
-    margin-bottom: 9%;
+    margin: 27% 0 9% 0;
 }
 
 .lifestyle-vr {
@@ -256,8 +255,7 @@ h6 {
 
 .lifestyle-col-data {
     width: 80%;
-    padding-left: 8%;
-    padding-right: 1%;
+    padding: 0 1% 0 8%;
     word-break: break-all;
     color: #6e6e6e;
     font-size: 14px;
@@ -266,9 +264,7 @@ h6 {
 
 .lifestyle-img {
     width: 110%;
-    margin-left: -10px;
-    margin-top: -10px;
-    margin-right: auto;
+    margin: -10px auto 0 -10px;
 }
 
 .no-border-box {
@@ -345,15 +341,12 @@ h6 {
     text-decoration: underline;
 }
 .media {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 2% 0 2% 0;
 }
 
 .resources {
     margin-top: 2.9vw;
-    padding-top: 1.8%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 1.8% 5% 0 5%;
     border: solid;
     border-width: 1px;
     border-color: #ddd;
@@ -370,15 +363,14 @@ h6 {
     display: grid;
     grid-template-columns: 50% 50%;
     border-top: solid 1px #00853f;
-    margin-top: 0.7vw;
+    margin-top: 0.6vw;
     padding-top: 4%;
     grid-column-gap: 5%;
 }
 
 .gridResources img {
     transition: 1s;
-    margin-left: -4.8%;
-    margin-top: 5%;
+    margin: 5% 0 0 -4.8%;
     width: 100%;
 }
 
@@ -423,8 +415,7 @@ h6 {
 }
 
 .copyright {
-    margin-top: 2.5%;
-    margin-left: 42%;
+    margin: 2.5% 0 0 42%;
     font-size: 0.9vw;
     color: rgb(221, 219, 219);
 }

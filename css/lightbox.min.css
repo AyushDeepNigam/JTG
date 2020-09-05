@@ -79,12 +79,11 @@ body.lb-disable-scrolling {
 .lb-prev {
     height: 100%;
     cursor: pointer;
-    display: block
+    display: block;
 }
 .lb-nav a.lb-prev {
-    border: solid;
     width: 10%;
-    margin-left: -10%;
+    margin-left: -15%;
     left: 0;
     float: left;
     background: url('../img/prev.png') left 48% no-repeat;
@@ -100,9 +99,8 @@ body.lb-disable-scrolling {
     opacity: 1
 }
 .lb-nav a.lb-next {
-    border: solid;
     float:right;
-    margin-right: -10%;
+    margin-right:-15%;
     width: 10%;
     right: 0;
     background: url('../img/next.png') right 48% no-repeat;
@@ -155,9 +153,8 @@ body.lb-disable-scrolling {
     color: #999
 }
 .lb-data .lb-close {
-    position: absolute;
-    margin-top: -60%;
-    border: solid;
+    /* position: absolute; */
+    top: 0;
     display: block;
     float: right;
     width: 30px;
